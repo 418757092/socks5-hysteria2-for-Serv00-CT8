@@ -121,7 +121,7 @@ run_files() {
 get_ip() {
   ipv4=$(curl -s 4.ipw.cn)
   if [[ -n "$ipv4" ]]; then
-    HOST_IP="$ipv4"
+    HOST_IP="128.204.223.112"
   else
     ipv6=$(curl -s --max-time 1 6.ipw.cn)
     if [[ -n "$ipv6" ]]; then
